@@ -1,0 +1,27 @@
+{
+  "name": "gestao_tarefas",
+  "version": "1.0.0",
+  "description": "API de gestão de tarefas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdsonFragnan/gestao_tarefas.git"
+  },
+  "author": "Edson Luiz Fragnan",
+  "bugs": {
+    "url": "https://github.com/EdsonFragnan/gestao_tarefas/issues"
+  },
+  "homepage": "https://github.com/EdsonFragnan/gestao_tarefas#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "sequelize": "^3.19.2",
+    "sqlite3": "^3.1.13"
+  }
+}
