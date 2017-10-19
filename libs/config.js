@@ -8,6 +8,8 @@ module.exports = {
     define: {
       underscored: true
     },
-    operatorsAliases: false
+    operatorsAliases: false,
+    jwtSecret: 'G@@sta$_t@refa#-AP1',
+    jwtSession: {session: false}
   }
 };
