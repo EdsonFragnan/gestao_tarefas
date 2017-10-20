@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/EdsonFragnan/gestao_tarefas#readme",
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "consign": "^0.1.6",
     "express": "^4.16.2",

@@ -7,9 +7,9 @@ module.exports = {
     storage: 'gestao_tarefas.sqlite',
     define: {
       underscored: true
-    },
-    operatorsAliases: false,
-    jwtSecret: 'G@@sta$_t@refa#-AP1',
-    jwtSession: {session: false}
-  }
+    }
+  },
+  operatorsAliases: false,
+  jwtSecret: 'G@@sta$_t@refa#-AP1',
+  jwtSession: {session: false}
 };
