@@ -1,15 +1,8 @@
-module.exports = {
-  database: 'gestao_tarefas',
-  username: '',
-  password: '',
-  params: {
-    dialect: 'sqlite',
-    storage: 'gestao_tarefas.sqlite',
-    define: {
-      underscored: true
-    }
-  },
-  operatorsAliases: false,
-  jwtSecret: 'G@@sta$_t@refa#-AP1',
-  jwtSession: {session: false}
-};
+module.exports = app => {
+  const env = process.env.NODE_ENV;
+  console.log(env);
+  if (Boolean(env)) {
+    return require('./config.' + env);
+  }
+  return require('./config.development.js');
+}
